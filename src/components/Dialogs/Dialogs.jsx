@@ -4,13 +4,11 @@ import DialogItem from './DialogItem/DialogItem'
 import Message from './Message/Message'
 
 const Dialogs = (props) => {
-
   let dialogs = [
     {id: 1, name: 'Artur'},
     {id: 2, name: 'Lana'},
     {id: 3, name: 'Alex'},
-    {id: 4, name: 'Lera'},
-    {id: 5, name: 'Vera'}
+    {id: 4, name: 'Vera'}
   ]
 
   let messages = [
