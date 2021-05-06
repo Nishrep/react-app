@@ -1,34 +1,34 @@
 import React from 'react'
-import classes from './Navbar.module.css'
+import styles from './Navbar.module.css'
 import {NavLink} from 'react-router-dom'
 
 
 const Navbar = (props) => {
   return (
-    <nav className={classes.nav}>
+    <nav className={styles.nav}>
       <ul>
-        <li className={classes.item}>
-          <NavLink activeClassName={classes.activeLink} to='/profile'>
+        <li className={styles.item}>
+          <NavLink activeClassName={styles.activeLink} to='/profile'>
             Profile
           </NavLink>
         </li>
-        <li className={classes.item}>
-          <NavLink activeClassName={classes.activeLink} to='/dialogs'>
+        <li className={styles.item}>
+          <NavLink activeClassName={styles.activeLink} to='/dialogs'>
             Messages
           </NavLink>
         </li>
-        <li className={classes.item}>
-          <NavLink activeClassName={classes.activeLink} to='/news'>
+        <li className={styles.item}>
+          <NavLink activeClassName={styles.activeLink} to='/news'>
             News
           </NavLink>
         </li>
-        <li className={classes.item}>
-          <NavLink activeClassName={classes.activeLink} to='/music'>
+        <li className={styles.item}>
+          <NavLink activeClassName={styles.activeLink} to='/music'>
             Music
           </NavLink>
         </li>
-        <li className={classes.item}>
-          <NavLink activeClassName={classes.activeLink} to='/settings'>
+        <li className={styles.item}>
+          <NavLink activeClassName={styles.activeLink} to='/settings'>
             Settings
           </NavLink>
         </li>

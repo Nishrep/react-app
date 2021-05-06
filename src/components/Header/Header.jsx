@@ -1,11 +1,11 @@
 import React from 'react'
-import classes from './Header.module.css'
+import styles from './Header.module.css'
 
 const Header = (props) => {
   return (
-    <header className={classes.header}>
+    <header className={styles.header}>
       <a href='#'>
-        <img src='https://mythemestore.com/beehive-preview/wp-content/themes/beehive/assets/images/logo-icon.svg'/>
+        <img src='https://mythemestore.com/beehive-preview/wp-content/themes/beehive/assets/images/logo-icon.svg' />
       </a>
     </header>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './MyPosts.module.css'
+import styles from './MyPosts.module.css'
 import Post from './Post/Post'
 
 const MyPosts = (props) => {
@@ -8,7 +8,7 @@ const MyPosts = (props) => {
     {id: 2, message: 'My first post', likesCount: 20}
   ]
 
-  let postsElements = posts.map(post => <Post id={post.id} message={post.message} likesCount={post.likesCount}/>)
+  let postsElements = posts.map(post => <Post id={post.id} message={post.message} likesCount={post.likesCount} />)
 
   return (
     <div className='postsBlock'>
@@ -19,7 +19,7 @@ const MyPosts = (props) => {
         </div>
         <button>Add post</button>
       </div>
-      <div className={classes.posts}>
+      <div className={styles.posts}>
         {postsElements}
       </div>
     </div>
